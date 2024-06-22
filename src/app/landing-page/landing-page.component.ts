@@ -1,7 +1,6 @@
 import { trigger, transition, style, animate } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @Component({
   selector: 'landing-page',
@@ -22,7 +21,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
       ]),
     ]),
   ],
-  imports: [CommonModule, MatProgressSpinnerModule],
+  imports: [CommonModule],
 })
 export class LandingPageComponent implements OnInit {
   get imagePath() {
