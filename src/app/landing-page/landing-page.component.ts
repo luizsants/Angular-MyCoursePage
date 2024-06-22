@@ -23,9 +23,10 @@ import { CommonModule } from '@angular/common';
   ],
   imports: [CommonModule],
 })
+    
 export class LandingPageComponent implements OnInit {
   get imagePath() {
-    return 'assets/iamge.jpg';
+    return 'assets/image.jpg';
   }
 
   loading = true;
@@ -33,6 +34,6 @@ export class LandingPageComponent implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.loading = false;
-    }, 2300); // 3 seconds delay
+    }, 2300); 
   }
 }

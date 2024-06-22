@@ -1,8 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
-
 body {
-    background: radial-gradient(circle at top left, #181023, #0b0519);
+    background: #f8f9fa;
     color: #3D3D3D;
     height: 100%;
-    width: 100%;
+    width: 99%;
   }
